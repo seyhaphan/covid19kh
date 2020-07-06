@@ -27,7 +27,7 @@ export default class App extends Component {
     const { confirmed, recovered, deaths, lastUpdate } = this.state;
     console.log(lastUpdate);
     if (!confirmed.value) {
-      return 'loading...'
+      return <h3 className="container text-center">Loading...</h3>
     }
 
     return (
