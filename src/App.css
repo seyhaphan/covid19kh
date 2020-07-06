@@ -40,3 +40,9 @@
 .card-item {
    margin: 10px !important;
 }
+
+@media screen and (max-width: 768px) {
+   .main {
+      flex-direction: column;
+   }
+}
