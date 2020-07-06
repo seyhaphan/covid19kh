@@ -32,7 +32,7 @@ export default class App extends Component {
 
     return (
       <div className='container mt-4 d-flex flex-wrap justify-content-center'>
-        <h1 style={{ width: '100%', textAlign: 'center' }}>Cambodia covid19</h1>
+        <h1 style={{ width: '100%', textAlign: 'center' }}>Cambodia covid19 testing...</h1>
         <Card bg='primary' text='white' className="card-item">
           <Card.Header>Confirmed</Card.Header>
           <Card.Body>
